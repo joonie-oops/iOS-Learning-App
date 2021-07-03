@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		760BF2FA2690339A00D5D69B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760BF2F92690339A00D5D69B /* Models.swift */; };
 		76E91538268F827B00507A27 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E91537268F827B00507A27 /* LearningApp.swift */; };
 		76E9153A268F827B00507A27 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E91539268F827B00507A27 /* HomeView.swift */; };
 		76E9153C268F827D00507A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E9153B268F827D00507A27 /* Assets.xcassets */; };
 		76E9153F268F827D00507A27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E9153E268F827D00507A27 /* Preview Assets.xcassets */; };
 		76E9154C268F833400507A27 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E9154B268F833400507A27 /* ContentModel.swift */; };
+		76E91553268F852A00507A27 /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = 76E91551268F852A00507A27 /* style.html */; };
+		76E91554268F852A00507A27 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 76E91552268F852A00507A27 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		760BF2F92690339A00D5D69B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		76E91534268F827B00507A27 /* Learning App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E91537268F827B00507A27 /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		76E91539268F827B00507A27 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		76E9153E268F827D00507A27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76E91540268F827D00507A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76E9154B268F833400507A27 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		76E91551268F852A00507A27 /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
+		76E91552268F852A00507A27 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		76E91548268F82F600507A27 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				760BF2F92690339A00D5D69B /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -101,6 +108,8 @@
 		76E91549268F82FE00507A27 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				76E91552268F852A00507A27 /* data.json */,
+				76E91551268F852A00507A27 /* style.html */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -169,8 +178,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E91553268F852A00507A27 /* style.html in Resources */,
 				76E9153F268F827D00507A27 /* Preview Assets.xcassets in Resources */,
 				76E9153C268F827D00507A27 /* Assets.xcassets in Resources */,
+				76E91554268F852A00507A27 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +195,7 @@
 				76E9153A268F827B00507A27 /* HomeView.swift in Sources */,
 				76E91538268F827B00507A27 /* LearningApp.swift in Sources */,
 				76E9154C268F833400507A27 /* ContentModel.swift in Sources */,
+				760BF2FA2690339A00D5D69B /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
